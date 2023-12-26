@@ -35,10 +35,10 @@ useradd -m -U -d /opt/tomcat -s /bin/false tomcat
 ```
 
 Download Apache Tomcat
-Visit the specified URL to get the latest version if needed
-```
-https://tomcat.apache.org/download-10.cgi
-```
+Visit the specified URL to get the latest version if needed  
+`https://tomcat.apache.org/download-10.cgi`  
+
+
 Download Apache Tomcat 10.1.7
 ```
 wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.7/bin/apache-tomcat-10.1.7.tar.gz
@@ -175,8 +175,8 @@ sed -i 's/#PermitRootLogin yes/PermitRootLogin yes/g' /etc/ssh/sshd_config
 systemctl restart sshd
 ```
 
-Make Sure the Security groups is Open the Port 8080
-`choose "Custom TCP rule" in the dropdown Then you will be able to change the port to 8080`
+Make Sure the Security groups is Open the Port 8080  
+`choose "Custom TCP rule" in the dropdown Then you will be able to change the port to 8080`  
 
 Open Google chrome and run your IP with ports 8080
 ```
