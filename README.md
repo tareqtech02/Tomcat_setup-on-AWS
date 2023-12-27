@@ -3,6 +3,11 @@
 ```
 ping google.com -c 5
 ```
+## Change the Hostname for the Server
+```
+hostnamectl set-hostname Tomcat
+```
+
 
 ## Ensure to update the System
 
