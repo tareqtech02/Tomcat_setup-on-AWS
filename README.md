@@ -100,24 +100,12 @@ Reload systemd configurations
 systemctl daemon-reload
 ```
 
-Start Tomcat
+Start and Enable Tomcat to start on system boot
 ```
 systemctl start tomcat
-```
-
-Enable Tomcat to start on system boot
-```
 systemctl enable tomcat
-```
-
-
-Check the status of the Tomcat service
-```
 systemctl status tomcat
 ```
-
-
-
 
 
 Remove some line in the Configure file in Tomcat Manager
