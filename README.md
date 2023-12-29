@@ -26,7 +26,7 @@ reboot
 
 Install OpenJDK 11
 ```
-amazon-linux-extras install java-openjdk11
+amazon-linux-extras install java-openjdk11 -y
 ```
 
 Check Java version
